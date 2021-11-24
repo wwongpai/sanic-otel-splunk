@@ -23,6 +23,7 @@ trace.get_tracer_provider().add_span_processor(span_processor)
 # app.py
 @app.route("/")
 async def test(request):
+    # start new span
         with tracer.start_as_current_span("ww-span"):
                 return response.json({"test": True})
 
