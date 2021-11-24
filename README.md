@@ -16,7 +16,7 @@ export OTEL_RESOURCE_ATTRIBUTES='deployment.environment=xxx'
 ```
 python3 app.py
 ```
-7. check span by running 
+5. check span by running 
 ```
 lynx http://localhost:55679/debug/tracez
 ```
