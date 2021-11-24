@@ -12,4 +12,3 @@ export OTEL_EXPORTER_OTLP_ENDPOINT='http://localhost:4317'
 export OTEL_RESOURCE_ATTRIBUTES='deployment.environment=xxx'
 4. run python3 app.py
 5. check span by running lynx http://localhost:55679/debug/tracez
-
