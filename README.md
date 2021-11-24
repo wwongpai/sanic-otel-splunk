@@ -3,7 +3,7 @@ Testing - Instrumenting Sanic framework with Opentelemetry
 
 Test with python 3.8.10, sanic 20.12.2
 
-Step to instrument
+**Step to instrument**
 1. pip install -r requirements.txt
 2. install Splunk Otel Collector
 3. export required parameters
