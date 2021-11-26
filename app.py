@@ -13,7 +13,7 @@ app = Sanic(__name__)
 # If resource wouldn't be set - traces wouldn't appears in Splunk
 resource = Resource(attributes={
     "service.name": os.getenv('OTEL_SERVICE_NAME'),
-    "deployment.environment": os.getenv('OTEL_RESOURCE_ATTRIBUTES')
+    "deployment.environment": os.getenv('DEPLOYMENT_ENV')
 })
 trace.set_tracer_provider(TracerProvider(resource=resource))
 tracer = trace.get_tracer(__name__)
