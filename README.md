@@ -20,3 +20,7 @@ python3 app.py
 ```
 lynx http://localhost:55679/debug/tracez
 ```
+6. Call / enpoint
+```
+curl localhost:8000/
+```
