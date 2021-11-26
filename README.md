@@ -10,7 +10,7 @@ Test with python 3.8.10, sanic 20.12.2
 ```
 export OTEL_SERVICE_NAME='xxx'
 export OTEL_EXPORTER_OTLP_ENDPOINT='http://localhost:4317'
-export OTEL_RESOURCE_ATTRIBUTES='deployment.environment=xxx'
+export DEPLOYMENT_ENV='deployment.environment=xxx'
 ```
 4. run 
 ```
